@@ -1,0 +1,139 @@
+/* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,300,800,300italic,700italic,800italic);
+
+	#style-switcher {
+		border-radius: 0 0 5px 0;
+			-moz-border-radius: 0 0 5px 0;
+			-o-border-radius: 0 0 5px 0;
+			-ms-border-radius: 0 0 5px 0;
+			-webkit-border-radius: 0 0 5px 0;
+		background: #ffffff;
+		border: 1px solid #dadada;
+		width:190px;
+		position:fixed;
+		top:100px;
+		z-index:9999;
+		left: -290px;
+		border-radius: 0 0 3px 0;
+		width: 290px;
+		display: none;
+	}
+
+	#style-switcher h2 {
+		font-family: "Open Sans", Arial, sans-serif;
+		border-bottom: 1px solid #dadada;
+		color: #222222;
+		font-weight: 600;
+		padding: 0;
+		line-height: 44px;
+		font-size: 16px;
+		padding: 0 24px;
+		text-transform: uppercase;
+	}
+
+	#style-switcher h3 {
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		color:#999999;
+		font-size: 15px;
+		line-height: 20px;
+		margin: 0 0 12px 0;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	#style-switcher > div {
+		padding: 20px 24px;
+	}
+
+	#style-switcher .option_single{
+		border-bottom: 1px solid #dadada;
+	}
+
+	#style-switcher h2 a {
+		background: url("switcher.png") no-repeat scroll center center #fff;
+		border: 1px solid #dadada;
+		border-left: none;
+		display: block;
+		height: 46px;
+		position: absolute;
+		right: -47px;
+		text-indent: -9999px;
+		top: -1px;
+		width: 46px;
+		border-radius: 0 3px 3px 0;
+	}
+
+	.colors { list-style:none; margin:0; overflow: hidden; padding: 0;}
+	.colors li { float:left; margin:0 5px 5px 0; }
+	.colors li a { 
+		border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-webkit-border-radius: 5px;
+		display: block; 
+		width: 32px; 
+		height: 32px; 
+		cursor: pointer;
+	} 
+
+	.layout-style select {
+		background: #f2f2f2;
+		border-radius: 0 0 5px 5px;
+			-moz-border-radius: 0 0 5px 5px;
+			-o-border-radius: 0 0 5px 5px;
+			-ms-border-radius: 0 0 5px 5px;
+			-webkit-border-radius: 0 0 5px 5px;
+		width: 100%;
+		padding: 5px;
+		border: none;
+		margin:0 0 0 -5px;
+		color: #333;
+		cursor: pointer;
+		font-size: 14px;
+	}
+
+	#reset {
+		margin: 0 auto 15px; 
+		display: block; 
+		overflow: hidden; 
+		text-align: center;
+	}
+
+	#reset a {
+		background-color: #333;
+		border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-webkit-border-radius: 5px;
+		color: #fff; 
+		display: inline-block;
+		font-size: 14px;
+		padding: 7px 35px; 
+	}
+
+	#reset a:hover{
+		background-color: #555555;
+	}
+	.green, .green-bg { background: #19BD81; }
+	.blue, .blue-bg { background: #0084FF; }
+	.yellow, .yellow-bg { background: #FFC600; }
+	.red, .red-bg { background: #FF3334; }
+	.orange, .orange-bg { background: #F36639; }
+	.mayablue, .mayablue-bg { background: #5ED7F4;}
+	.shamrockgreen, .shamrockgreen-bg { background: #4ADEA0;}
+	.violet, .violet-bg { background: #BD71DD;}
+	.colors li a.active { box-shadow:0 0 0 2px #707070 inset; }
+	
+	#style-switcher  .button_holder{
+		padding-bottom: 0;
+		padding-top: 20px;
+	}
+	#style-switcher  .button_holder .button{
+		margin-bottom: 10px;
+	}
+/*	@media only screen and (max-width: 768px) {#style-switcher {display: none;}}*/

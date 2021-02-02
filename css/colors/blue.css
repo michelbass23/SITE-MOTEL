@@ -1,0 +1,533 @@
+/*************************************************************************************************
+/* this file is used for #39c1f3 color preset
+*
+*/
+
+/**       1- General                                                   **/
+::selection {
+	background: #39c1f3; /* Safari */
+}
+::-moz-selection {
+	background: #39c1f3; /* Firefox */
+}
+	a {
+		color: #39c1f3;
+	}
+	.bg_theme_color{
+		background-color: #39c1f3;
+	}
+	.bg_image_overlay:after{
+		background-color: #39c1f3;
+	}
+/* bg_work ends */
+/* to highlight text */
+.highlight{
+	color: #39c1f3;
+}
+/* .folio-link-url */
+.folio-link-url{
+	color: #39c1f3;
+}
+	.folio-link-url i{
+		color: #39c1f3;
+	}
+
+/* Button CSS starts */
+
+.button, a.button {
+	background-color: #39c1f3;
+	border: 1px solid #39c1f3;
+}
+	.button:hover, a.button:hover{
+		color: #39c1f3;
+	}
+input[type="submit"]{
+	background-color: #39c1f3;
+	border: 1px solid #39c1f3;
+}
+	input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus{
+		color: #39c1f3;
+		background-color: transparent;
+	}
+/* Button CSS ends */
+
+/* Form Elements CSS starts */
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{
+	border-bottom: 2px solid #39c1f3;
+}
+		.dark_form textarea:focus,
+		.dark_form input[type="text"]:focus,
+		.dark_form input[type="password"]:focus,
+		.dark_form input[type="datetime"]:focus,
+		.dark_form input[type="datetime-local"]:focus,
+		.dark_form input[type="date"]:focus,
+		.dark_form input[type="month"]:focus,
+		.dark_form input[type="time"]:focus,
+		.dark_form input[type="week"]:focus,
+		.dark_form input[type="number"]:focus,
+		.dark_form input[type="email"]:focus,
+		.dark_form input[type="url"]:focus,
+		.dark_form input[type="search"]:focus,
+		.dark_form input[type="tel"]:focus,
+		.dark_form input[type="color"]:focus,
+		.dark_form .uneditable-input:focus{
+			border-bottom-color: #39c1f3;
+		}
+/* back_top starts */
+	.back_top a{
+		background: #39c1f3;
+	}
+/* back_top ends */
+/********************* Global Elements Css ends ******************/
+/*******************************************************************/
+
+
+/**       2- Navigation Primary (with/without Sticky Navigation)**/
+/**       2.1- Navigation Primary General                     	**/
+/* menu-bar starts */
+
+/* menu-bar starts from */
+#magic-line {
+	background: #39c1f3; 
+}
+/**       2.2- Navigation Primary Drop-Down                  	**/
+	/* menu-bar Dropdown Starts */
+	.menu-bar .main-nav > ul > li > ul {
+		border-top: 3px solid #39c1f3;
+	}
+	.is_static_menu.menu-bar .main-nav > ul > li > ul{
+		border-bottom: 3px solid #39c1f3;
+	}
+	/* menu-bar Dropdown Ends */
+		.menu-bar .responsive-nav ul li a:hover, .menu-bar .responsive-nav ul > li.current > a{
+			background: #39c1f3;
+		}
+/* menu-bar ends */
+
+/**		  2.4- 	**/
+			.small_menu .menu_small_btn:hover{
+				border-color: #39c1f3;
+				color: #39c1f3;
+			}
+				.small_menu .menu_with_text_only {
+					background: #39c1f3;
+				}
+				.small_menu .menu_with_text_only:before{
+					border-left: 8px solid #39c1f3;
+				}
+
+/**       3- Other Navigations								**/
+/**       	3.1- Full Screen Navigation				**/
+	/* overlay_menu style */
+	/* full_screen_menu Menu style */
+	.full_screen_menu ul.sub-menu a:hover, .full_screen_menu ul.sub-menu span:hover{
+		/*background: #39c1f3;*/
+	}
+
+	/* .full_screen_menu ul Menu starts */
+	.full_screen_menu ul li > a:hover,
+	.full_screen_menu ul li > a:focus,
+	.full_screen_menu ul li.current > a{
+		color: #39c1f3;
+	}
+
+	/* .full_screen_menu ul Menu ends */
+
+	/* .full_screen_holder .bottom_bar starts */
+	.full_screen_holder .bottom_bar{
+		background: #39c1f3;
+	}
+	/* .full_screen_holder .bottom_bar ends */
+
+/**       	3.2- Slidebar Navigation							**/
+	.folio-slidebar .main-nav li > a:hover, .folio-slidebar .main-nav ul li.current > a {
+		border-left-color: #39c1f3;
+		color: #39c1f3;
+	}
+/* .folio-slidebar ends */
+
+/**       4- Header												**/
+
+/**       5- Homepage Sections (includes headings group)		**/
+
+/* Section Homepage General CSS starts */
+		div.hgroup_1 h2:after{
+			background: #39c1f3;
+		}
+/* Section Homepage General CSS ends */
+
+/**		7- Services Section	No 1								**/
+/* .service_single starts */
+		.service_single .service_block:hover .service_icon{
+			background: #39c1f3;
+		}
+/* .service_single ends */
+
+/**		  9- Portfolio Section									**/
+/* work_nav starts */
+		.work_nav ul.project-nav-menu li a:hover:after, .work_nav ul.project-nav-menu li.current a:after{
+			background: #39c1f3;
+		}
+	.work_nav ul.project-nav-menu li a:hover, .work_nav ul.project-nav-menu li.current a{
+		/*border-bottom: 3px solid #39c1f3;*/
+	}
+/* work_nav ends */
+
+/* work_listing starts */
+		.view .mask {
+			background-color: rgba(0,132,255, 0.95);
+		}
+		.view .links a.info-link:before, .view .links a.info-link:after{
+			background: #39c1f3;
+		}
+/* work_listing ends */
+
+/* .project starts */
+	/* video js starts */
+	.project .featured_image .vjs-default-skin .vjs-big-play-button{
+		background: #39c1f3;
+	}
+	/* video js ends */
+/* .project ends */
+
+/**      11- Services Section No 2								**/
+/* services_list Start Here */
+	.services_list i {
+		color: #39c1f3;
+	}
+/* services_list End Here */
+
+/**      12- Features Slider with Carousel						**/
+/* feature_slider Start Here */
+	/* .feature_slider_nav starts */
+	.feature_slider .feature_slider_nav .owl-item.synced:before, .feature_slider .feature_slider_nav .owl-item:hover:before {
+		border: 2px solid #39c1f3;
+	}
+	/* .feature_slider_nav ends */
+/* feature_slider End Here */
+
+/**      14- Team Section										**/
+/* team_member Styling Start Here */
+	div.team_member {
+		border-bottom: 3px solid #39c1f3;
+	}
+	div.team_member:hover {
+		background: #39c1f3;
+	}
+	div.team_member .content .links a:hover{
+		color: #39c1f3;
+	}
+	div.team_member h4 {
+		color: #39c1f3;
+	}
+/* team_member Styling End Here */
+
+/**      15- Statistics Section									**/
+/* stats_single Styling Start Here */
+	.stats_single i {
+		color: #39c1f3;
+	}
+	.stats_single .stats_content h4 {
+		border-bottom: 2px solid #39c1f3;
+	}
+/* stats_single Styling End Here */
+
+/**		17- Blog Section (includes: Module, Blog Listing, Single)	**/
+/* .hm_blog_post starts */
+/* .hm_blog_post ends */
+
+/* .post starts */
+		/* play-button for home starts */
+		.post .featured_image.video_post .play-button{
+			background: #39c1f3;
+		}
+		/* play-button for home ends */
+
+		/* video js starts */
+		.post .featured_image .vjs-default-skin .vjs-big-play-button{
+			background: #39c1f3;
+		}
+		/* video js ends */
+
+		/* quote_post starts */
+		.quote_post .quote:before{
+			color: #39c1f3;
+		}
+		/* quote_post ends */
+
+		/* link_post starts */
+		.link_post a.link:before{
+			color: #39c1f3;
+		}
+		/* link_post ends */
+
+			.post .featured_image .date_holder .date{
+				background-color: #39c1f3;
+			}
+						.post .post_content .meta_holder .title_holder .post_title a:hover{
+							color: #39c1f3;
+						}
+				.post .post_content .meta_holder .post_author{
+					color: #39c1f3;
+				}
+						.post .post_content .meta_holder .post_author a:hover{
+							color: #39c1f3;
+						}
+						.post .post_content .meta_holder .post_meta a:hover{
+							color: #39c1f3;
+						}
+					.post .post_content .meta_holder .post_meta .post_cat .cat_title{
+						color: #39c1f3;
+					}
+/* .post ends */
+
+/**			17.1- Pagination with wp-pagenavi, theme fall back	**/
+/* pagination start */
+	/*.wp-pagenavi & wp_corenavi starts*/
+	.wp-pagenavi span.current, .folio_navigation  .wp_corenavi span.current {
+		background: #39c1f3;
+	}
+	/*.wp-pagenavi  & wp_corenavi starts*/
+/* pagination end */
+
+/**			17.2- Page Links									**/
+	/* .page_links starts */
+	.page_links > span{
+		background: #39c1f3;
+	}
+	/* .page_links ends */
+
+/**			17.3- Next Previous Post Navigation					**/
+/* .navigation Starts (Single post) */
+		/* .navigation (for Project single page) */
+	.page_nav a{
+		background: #39c1f3;
+	}
+/* .navigation Ends (Single post) */
+
+/**			17.4- Social Media Sharing bar						**/
+	/* social_media starts */
+	.social_media > ul.social_sharer_links > li a:hover {
+		color: #39c1f3;
+	}
+	/* social_media ends */
+
+/**			17.5- Blog Post Comments							**/
+	/* comments_section Starts */
+	 #comments_section h3 i{
+		color: #39c1f3;
+	 }
+		#comments .commentlist a.comment-reply-link {
+			color: #39c1f3;
+		}
+		#comments .commentlist a.comment-reply-link i{
+			color: #39c1f3;
+		}
+			#comments_section #commentform .button:hover, #comments_section #commentform .button:active, #comments_section #commentform .button:focus{
+				color: #39c1f3;
+			}
+	/* comments_section Ends */
+
+/**		18- Content area inner Pages							**/
+/* content_bar Styling Starts*/ /* Content_bar styling includes for both blog and inner pages */
+	.content_bar h1 span, .content_bar .h1 span, .content_bar h1 a span, .content_bar .h1 a span,
+	.content_bar h2 span, .content_bar .h2 span, .content_bar h2 a span, .content_bar .h2 a span,
+	.content_bar h3 span, .content_bar .h3 span, .content_bar h3 a span, .content_bar .h3 a span,
+	.content_bar h4 span, .content_bar .h4 span, .content_bar h4 a span, .content_bar .h4 a span,
+	.content_bar h5 span, .content_bar .h5 span, .content_bar h5 a span, .content_bar .h5 a span,
+	.content_bar h6 span, .content_bar .h6 span, .content_bar h6 a span, .content_bar .h6 a span{
+		color: #39c1f3;
+	}
+.content_bar h1 a:hover, .content_bar h2 a:hover, .content_bar h3 a:hover, .content_bar h4 a:hover, .content_bar h5 a:hover, .content_bar h6 a:hover{
+	color: #39c1f3;
+}
+	.content_bar p a{
+		color: #39c1f3;
+	}
+	.content_bar ul li:before{
+		color: #39c1f3;
+	}
+/* content_bar Styling Ends*/
+
+/**		19- Contact Section										**/
+/* sec-contact Styling Start Here */
+/**      	19.1- Contact Info									**/
+
+/**      	19.2- Social Media Link								**/
+	/* ul.social_links starts */
+		ul.social_links li a:hover i{
+			color: #39c1f3;
+		}
+	/* ul.social_links starts */
+
+
+/**     21- Footer Section (map included)						**/
+/* footer Styling Start Here */
+	h5.copy_right i {
+		color: #39c1f3;
+	}
+/* footer Styling End Here */
+
+/**		22- Sidebar and Widgets									**/
+/* side_bar Starts*/
+	/* widget_recent_entries Starts*/
+	.widget_recent_entries ul li a:hover {
+		color: #39c1f3;
+	}
+	.post-date {
+		color: #39c1f3;
+	}
+	/* widget_recent_entries Ends*/
+
+	/* widget_categories Starts*/
+	.widget_categories ul li a {
+		color: #39c1f3;
+	}
+	/* widget_categories Ends*/
+
+	/* widget_text Starts*/
+	.textwidget strong {
+		color: #39c1f3;
+	}
+	/* widget_text Ends*/
+
+	/* widget tagcloud starts */
+	.tagcloud a:hover {
+		background: #39c1f3;
+	}
+	/* widget tagcloud ends */
+
+	/* widget_kraft_slider starts */
+		.widget_kraft_slider .bx-wrapper .bx-controls-direction a:hover{
+			color: #39c1f3;
+		}
+	/* widget_kraft_slider ends */
+
+	/* tweet-list Starts */
+	.tweet-list .tweet .icon {
+		background: #39c1f3;
+	}
+		.tweet-list .tweet:hover .icon{
+			color: #39c1f3;
+		}
+	/* tweet-list Ends */
+
+	/* FLickr widget starts */
+	.widget_kraft_flickr .flikr a.overlay{
+		background-color: rgba(0,132,255, 0.7);
+	}
+	/* FLickr widget ends */
+
+	/* Gallery widget starts */
+	.widget_kraft_portfolio a.overlay{
+		background-color: rgba(0,132,255, 0.7);
+	}
+	/* Gallery widget ends */
+
+	/* widget_custom_video starts */
+	.widget_kraft_custom_video .vjs-default-skin:hover .vjs-big-play-button, .video-bg .vjs-default-skin .vjs-big-play-button:focus {
+		background-color: #39c1f3;
+	}
+	/* widget_custom_video starts */
+
+	/* widget_nav_menu and widget_pages Starts*/
+	.widget_nav_menu ul li a:hover, .widget_nav_menu ul li.current_page_item a, .widget_pages ul li a:hover, .widget_pages ul li.current_page_item a{
+		color: #39c1f3;
+	}
+	.widget_meta ul li a{
+		color: #39c1f3;
+	}
+	/* widget_nav_menu and widget_pages Ends*/
+
+	/* widget_recent_comments Starts*/
+	.widget_recent_comments ul li a:hover{
+		color: #39c1f3;
+	}
+	/* widget_nav_menu Ends*/
+/* sidebar Ends*/
+
+/**      23- Shortcodes and Styling								**/
+/**      23.1- Buttons Styles			                 							**/
+/*-----------------------------------------------------------------------------------*/
+/*	Button Styles
+/*-----------------------------------------------------------------------------------*/
+/* .button.button-outline starts */
+.button.button-outline, a.button.button-outline{
+	color: #39c1f3;
+}
+	.button.button-outline:hover, a.button.button-outline:hover{
+		background-color: #39c1f3;
+	}
+/* .button.button-outline ends */
+
+/**      23.2- Tabs Styles			                 				  				**/
+/*-----------------------------------------------------------------------------------*/
+/* Tab Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-tabs .folio-nav .ui-tabs-selected a,
+.folio-tabs .folio-nav .ui-tabs-active a {
+	color: #39c1f3;
+}
+
+/**      23.3- Toggles Styles			                 				  			**/
+/*-----------------------------------------------------------------------------------*/
+/*	Toggle Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-toggle .ui-accordion-header-active, .folio-toggle .ui-state-active{
+	background-color: #39c1f3;
+	border-color: #39c1f3;
+}
+
+/**      23.4- Accordion Styles			                 				            **/
+/*-----------------------------------------------------------------------------------*/
+/*	Accordion Styles
+/*-----------------------------------------------------------------------------------*/
+.folio-accordion .ui-accordion-header-active, .folio-accordion .ui-state-active{
+	border-color: #39c1f3;
+}
+	.folio-accordion .ui-accordion-header-active, .folio-accordion .ui-state-active a{
+		color: #39c1f3;
+	}
+
+/**      23.5- Pricing Tables Styles 1			                 				    **/
+/*-----------------------------------------------------------------------------------*/
+/* 360 Pricing Table Styles
+/*-----------------------------------------------------------------------------------*/
+.design_pricing_single.orange_pricing .price_title {
+	/*background: #39c1f3;*/
+}
+
+/**      23.6- Pricing Tables Styles 2			                 				    **/
+/*-----------------------------------------------------------------------------------*/
+/* Folio Pricing Table Styles
+/*-----------------------------------------------------------------------------------*/
+.folio_pricing_single.favourite_pricing .price_title{
+	background: #39c1f3;
+}
+
+/**      23.7- Quotes Styles			                 				  			**/
+/*-----------------------------------------------------------------------------------*/
+/*	Quotes Styles
+/*-----------------------------------------------------------------------------------*/
+	/* quote_styling Starts */
+	/* blockqoute */
+	.quote_1{
+		border-left: 3px solid #39c1f3;
+	}
+	.quote_2, .quote_3 {
+		border-left: 3px solid  #39c1f3;
+	}
+	/* blockqoute strong */
+	/* quote_styling Ends */
+
+/* Responsive Slides */
+body .transparent-btns_tabs .transparent-btns_here a, body .transparent-btns_tabs a:hover{
+	background: #39c1f3;
+	border: 2px solid #39c1f3;
+}
+
+body .centered-btns_here a:before,
+body .transparent-btns_here a:before,
+body .large-btns_here a:before {
+  color: #39c1f3;
+  }
